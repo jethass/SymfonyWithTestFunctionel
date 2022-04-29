@@ -77,18 +77,18 @@
         "symfony/polyfill-php80": "*"
     },
     "scripts": {
-        "prepare-dev": {
+        "prepare-dev": [
             "php bin/console cache:clear --env=dev",
             "php bin/console doctrine:database:drop --if-exists -f --env=dev",
             "php bin/console doctrine:database:create --env=dev",
-            "php bin/console doctrine:fixtures:load -n --env=dev",
-        },
-        "prepare-test": {
+            "php bin/console doctrine:fixtures:load -n --env=dev"
+        ],
+        "prepare-test": [
             "php bin/console cache:clear --env=test",
             "php bin/console doctrine:database:drop --if-exists -f --env=test",
             "php bin/console doctrine:database:create --env=test",
             "php bin/console doctrine:fixtures:load -n --env=test"
-        },
+        ],
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
