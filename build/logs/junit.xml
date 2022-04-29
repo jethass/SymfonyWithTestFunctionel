@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.149969">
-    <testsuite name="Project Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.149969">
-      <testsuite name="App\Tests\PremierTest" file="/Users/hassine-lataoui/pc-win/projects/projectWithtestFunctionel/tests/PremierTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.149969">
-        <testcase name="testSomething" class="App\Tests\PremierTest" classname="App.Tests.PremierTest" file="/Users/hassine-lataoui/pc-win/projects/projectWithtestFunctionel/tests/PremierTest.php" line="20" assertions="1" time="0.149969"/>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="2.579000">
+    <testsuite name="Project Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="2.579000">
+      <testsuite name="App\Tests\PremierTest" file="/Users/hassine-lataoui/pc-win/projects/projectWithtestFunctionel/tests/PremierTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="2.579000">
+        <testcase name="testSomething" class="App\Tests\PremierTest" classname="App.Tests.PremierTest" file="/Users/hassine-lataoui/pc-win/projects/projectWithtestFunctionel/tests/PremierTest.php" line="16" assertions="1" time="2.579000"/>
       </testsuite>
     </testsuite>
   </testsuite>
