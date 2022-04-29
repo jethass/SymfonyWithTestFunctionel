@@ -193,5 +193,4 @@ abstract class User implements UserInterface
     {
         return sprintf("%s %s", $this->firstName, $this->lastName);
     }
-
 }
